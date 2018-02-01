@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Uzduotis01 {
 
     public Uzduotis01(){
+        System.out.println("");
         System.out.println("Pirma uzduotis: ");
 
         Scanner in = new Scanner(System.in);
