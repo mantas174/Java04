@@ -25,7 +25,7 @@ public class Main {
         System.out.println(UZDUOTIS_1+ " Uzduotis");
         System.out.println(UZDUOTIS_2+ " Uzduotis");
         System.out.println(UZDUOTIS_3+ " Uzduotis");
-1
+
 
         System.out.println(EXIT_CODE+ " Baigs darba");
         System.out.println("-------------------------------");
