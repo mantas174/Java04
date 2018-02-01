@@ -7,6 +7,8 @@ public class Uzduotis07 {
     private int[] skaiciai;
 
     public Uzduotis07(){
+        System.out.println("");
+        System.out.println("Septinta uzduotis: ");
         ivedimas();
         spausdinimas();
 
@@ -27,7 +29,6 @@ public class Uzduotis07 {
 
     }
     private void spausdinimas(){
-        boolean arNera = true;
         System.out.println("Ivesti skaiciai kurie buvo idesni nei 100: ");
         for (int i = 0; i < skaiciai.length; i++){
             if (skaiciai[i] > 100){
