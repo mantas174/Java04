@@ -11,6 +11,7 @@ import mano.uzduotis_07.Uzduotis07;
 import mano.uzduotis_08.Uzduotis08;
 import mano.uzduotis_09.Uzduotis09;
 import mano.uzduotis_10.Uzduotis10;
+import mano.uzduotis_11.Uzduotis11;
 
 
 import java.util.Scanner;
@@ -27,6 +28,7 @@ public class Main {
     private static final int UZDUOTIS_8 = 8;
     private static final int UZDUOTIS_9 = 9;
     private static final int UZDUOTIS_10 = 10;
+    private static final int UZDUOTIS_11 = 11;
 
     public static void main(String[] args) {
 	    Main obj = new Main();
@@ -46,6 +48,7 @@ public class Main {
         System.out.println(UZDUOTIS_8+ " Uzduotis");
         System.out.println(UZDUOTIS_9+ " Uzduotis");
         System.out.println(UZDUOTIS_10+ " Uzduotis");
+        System.out.println(UZDUOTIS_11+ " Uzduotis");
 
 
         System.out.println(EXIT_CODE+ " Baigs darba");
@@ -92,6 +95,9 @@ public class Main {
                     break;
                 case UZDUOTIS_10:
                     new Uzduotis10();
+                    break;
+                case UZDUOTIS_11:
+                    new Uzduotis11();
                     break;
 
 

@@ -7,7 +7,7 @@ public class Uzduotis10 {
 
     public Uzduotis10() {
         System.out.println("");
-        System.out.println("Devinta uzduotis: ");
+        System.out.println("Desimta uzduotis: ");
 
         Scanner in = new Scanner(System.in);
         int n, sum = 0;

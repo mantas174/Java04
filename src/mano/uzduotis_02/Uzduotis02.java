@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Uzduotis02 {
     private static final String EXIT_CODE = "pabaiga";
     public Uzduotis02(){
-        System.out.println("");
+        System.out.println("Antra uzduotis: ");
         System.out.println("Antra uzduotis: ");
 
         Scanner in = new Scanner(System.in);
