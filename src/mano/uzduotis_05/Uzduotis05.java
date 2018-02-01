@@ -1,4 +1,4 @@
-package mano.uzduotis05;
+package mano.uzduotis_05;
 
 import java.util.Scanner;
 

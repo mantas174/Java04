@@ -5,8 +5,9 @@ import mano.uzduotis_01.Uzduotis01;
 import mano.uzduotis_02.Uzduotis02;
 import mano.uzduotis_03.Uzduotis03;
 import mano.uzduotis_04.Uzduotis04;
-import mano.uzduotis05.Uzduotis05;
+import mano.uzduotis_05.Uzduotis05;
 import mano.uzduotis_06.Uzduotis06;
+import mano.uzduotis_07.Uzduotis07;
 
 
 import java.util.Scanner;
@@ -19,6 +20,7 @@ public class Main {
     private static final int UZDUOTIS_4 = 4;
     private static final int UZDUOTIS_5 = 5;
     private static final int UZDUOTIS_6 = 6;
+    private static final int UZDUOTIS_7 = 7;
 
     public static void main(String[] args) {
 	    Main obj = new Main();
@@ -34,6 +36,7 @@ public class Main {
         System.out.println(UZDUOTIS_4+ " Uzduotis");
         System.out.println(UZDUOTIS_5+ " Uzduotis");
         System.out.println(UZDUOTIS_6+ " Uzduotis");
+        System.out.println(UZDUOTIS_7+ " Uzduotis");
 
 
         System.out.println(EXIT_CODE+ " Baigs darba");
@@ -68,6 +71,9 @@ public class Main {
                     break;
                 case UZDUOTIS_6:
                     new Uzduotis06();
+                    break;
+                case UZDUOTIS_7:
+                    new Uzduotis07();
                     break;
 
 
